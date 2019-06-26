@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #eaeaea;
+	color: #fff;
+	padding: 15.5% 0;
+}
+
+.wrapper{
+	background: #1A5E63;
+	padding: 20px;
+	text-align: center;
+}
+
+.head{
+	text-align: center;
+	font-family: arial;
+	font-size: 2em;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.sec{
+	padding: 20px;
+	width: 25%;
+	margin: 0 auto;
+	display: inline-block;
+	text-align: left;
+	font-size: 1.25em;
+}
+
+input{
+	padding: 5px;
+	width: 100%;
+	margin: 10px 0;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 425px) {
+
+	body{
+		padding: 20% 0;
+	}
+
+	.sec{
+		display: block;
+		width: 80%;
+		padding: 10px;
+	}
+}
